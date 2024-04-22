@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fetch User data</title>
+    <style>
+      #container {
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        gap: 10px;
+      }
+      .user-details {
+        width: 100%;
+
+        text-align: center;
+        padding: 10px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <button onclick="fetchUserData()">Fetch Users</button>
+    <div id="container"></div>
+  </body>
+  <script src="index.js"></script>
+</html>
